@@ -29,7 +29,7 @@ cd Codecamp
 dotnet build --configuration debug
 
 # create/update the db
-dotnet ef database update
+dotnet ef database update --project .\Codecamp\Codecamp.csproj
 ```
 
 Finally, the site requires a record in the Events table so run this statement to get the data all setup.
